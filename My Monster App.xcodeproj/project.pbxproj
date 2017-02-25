@@ -14,6 +14,7 @@
 		E6AF0EEA1E615E9A00B4EE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6AF0EE81E615E9A00B4EE57 /* LaunchScreen.storyboard */; };
 		E6AF0EF51E615E9A00B4EE57 /* My_Monster_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF0EF41E615E9A00B4EE57 /* My_Monster_AppTests.swift */; };
 		E6AF0F001E615E9B00B4EE57 /* My_Monster_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF0EFF1E615E9B00B4EE57 /* My_Monster_AppUITests.swift */; };
+		E6AF0F0E1E61939600B4EE57 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF0F0D1E61939600B4EE57 /* DragImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E6AF0EFB1E615E9A00B4EE57 /* My Monster AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Monster AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6AF0EFF1E615E9B00B4EE57 /* My_Monster_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Monster_AppUITests.swift; sourceTree = "<group>"; };
 		E6AF0F011E615E9B00B4EE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AF0F0D1E61939600B4EE57 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E6AF0EE61E615E9A00B4EE57 /* Assets.xcassets */,
 				E6AF0EE81E615E9A00B4EE57 /* LaunchScreen.storyboard */,
 				E6AF0EEB1E615E9A00B4EE57 /* Info.plist */,
+				E6AF0F0D1E61939600B4EE57 /* DragImg.swift */,
 			);
 			path = "My Monster App";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6AF0F0E1E61939600B4EE57 /* DragImg.swift in Sources */,
 				E6AF0EE21E615E9A00B4EE57 /* ViewController.swift in Sources */,
 				E6AF0EE01E615E9A00B4EE57 /* AppDelegate.swift in Sources */,
 			);
